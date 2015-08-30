@@ -1,0 +1,154 @@
+#Container{
+	font-family: 'Lato', sans-serif;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Header{
+	width:100%;
+	margin-top: 40px;
+}
+#Logo{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;
+	float: left;
+	margin-right: 20px;
+	font-size: 30px;
+    margin-top: -9px;
+}
+#SearchBox{
+height: 25px;
+margin-top: 2px;
+width: 100%;
+
+}/*
+#SearchButton{
+	height:25px;
+}
+#SearchContainer{
+
+}
+*/
+#Main{
+	height: 950px;
+	border: 1px solid black;
+	overflow:hidden;
+}
+.search-input{
+	width: 50%;
+}
+#SearchIcon{
+	float: right;
+    top: -21px;
+    cursor: pointer; 
+	margin-right: 10px;
+}
+.carouselWrap{
+	margin: 10px;
+}
+.submitWrap{
+	float:right;
+	margin: 20px 30px;
+}
+.submitB{
+	
+	 padding: 5px 10px;
+	 text-decoration: none;
+	 border: solid 1px black;
+	 color: black;
+	}
+	.submitB:hover{
+	color: black;
+	 padding: 5px 10px;
+	 text-decoration: none;
+	 
+	}
+ #festival-map { 
+	  	  height: 55%;
+		  width: 100%; 
+		  margin-left: auto;
+          margin-right: auto;
+		  border-right-width: 2px;
+		  border-right-color: #ffffff;
+		  border-right-style: solid;
+		  border-left-width: 2px;
+		  border-left-color: #ffffff;
+		  border-left-style: solid;
+	  }
+.submitTagLine{
+	text-align: center;
+	margin-top: 70px;
+}
+.formWrap{
+margin-top: 50px;
+width: 50%;
+margin: 0 auto;
+text-align: center;
+}
+#Image{
+	margin-left: 30%;
+}
+#ibContentContainer h3{
+	margin: -2px 0px 6px 10%; 
+	text-align: center;
+}
+#ibContentContainer .mainContentImg{
+	width:35%;
+	height:35%;
+	border:0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#ibContentContainer .mapInfoContainer {
+	font-size: 1.6em;
+	/*text-align: center;*/
+	margin: 4px;
+	min-height: 55px;
+}
+.mapInfoContainer .mapInfoContainerLinks {
+	font-size: .8em;
+	float: left;
+	clear: left;
+	width: 20%;
+	text-align: left;
+}
+.mapInfoContainer .postDetails {
+	float: left;
+	width: 67%;
+	text-align: center;
+	}
+.mapInfoContainer .postVotingContainer {
+	float: left;
+	width: 13%;
+	text-align: center;
+	}
+.mapInfoContainer .inappropriateFlag{
+	font-size: 1em;
+} 
+.postDetails span{
+	float: left;
+	clear:both;
+	width: 100%;
+	margin: 0 auto;
+}
+.carousel li{
+	cursor: pointer;
+}
+#submitResponse{
+	text-align: center;
+	font-size: 1.2em;
+}
+#mapControls{
+	width: 100%;
+	height: 50px;
+	border: 1px solid black;
+	border-left: none;
+	border-right: none;
+}
+#takenDown{
+	cursor: pointer;
+}
+#inappropriateFlag{
+	cursor: pointer;
+}

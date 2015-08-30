@@ -1,0 +1,31 @@
+//make utc timestamp in DB --done
+//make upvote/downvote in DB --done
+
+
+//make flag for review (inappropriate) on page 
+	click flag for review == sends update to add 1 to DB column\\ disable button
+	Separate job that runs hourly to flag posts with > 3 for review
+//make count for no longer exists (3) on page
+	click flag to say it no longer exists
+	if it has more > 5 gets caught in separate jbo that runs hourly
+
+//redo infobox -- half assed done
+
+
+/make multiple queries for carousels - done
+
+//make filter options and filter refresh button and next button on map
+
+//separate calls for each carousel and map - done
+
+	Calls:
+
+		Map
+			Select all the posts limit 20 + filters (exist=true/false)
+				(have iterator for next button)
+
+//form validation in php -- no geo data will fail
+
+//error handling in form in php (and success)
+//fix numbers long pvote bs issue
+//remove nvotes
